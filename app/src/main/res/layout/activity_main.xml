@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/wifi_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:id="@+id/ssid_input"
+        android:hint="Nom du réseau (SSID)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Mot de passe du réseau"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/connect_button"
+        android:text="Se connecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/open_camera_control_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contrôle de la caméra"
+        android:layout_marginTop="12dp" />
+
+
+</LinearLayout>
